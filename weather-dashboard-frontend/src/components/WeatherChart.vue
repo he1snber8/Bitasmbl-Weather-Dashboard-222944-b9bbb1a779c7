@@ -1,0 +1,1 @@
+<template><canvas ref="canvas"></canvas></template><script>export default{props:['forecast'],mounted(){},watch:{forecast(){}}}</script>
