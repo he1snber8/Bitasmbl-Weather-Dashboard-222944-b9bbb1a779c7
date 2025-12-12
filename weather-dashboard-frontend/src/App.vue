@@ -1,0 +1,1 @@
+<template><div><input v-model="city"/><button @click="search">Search</button><div v-if="weather"></div></div></template><script>export default{data(){return{city:'',weather:null};},methods:{search(){}}</script>
