@@ -1,0 +1,1 @@
+using Microsoft.Extensions.Caching.Memory;namespace WeatherDashboard.Api.Services;public class WeatherService{private readonly IMemoryCache _cache;public WeatherService(IMemoryCache cache){_cache=cache;} }
