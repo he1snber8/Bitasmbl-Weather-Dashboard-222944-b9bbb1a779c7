@@ -1,0 +1,1 @@
+import axios from 'axios';export function getCurrent(city){return axios.get('/api/weather/current',{params:{city}});}export function getForecast(city){return axios.get('/api/weather/forecast',{params:{city}});}
