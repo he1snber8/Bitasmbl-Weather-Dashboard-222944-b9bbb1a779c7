@@ -1,0 +1,1 @@
+<template><ul><li v-for="d in forecast" :key="d.date">{{d.date}}</li></ul></template><script>export default{props:['forecast']}</script>
